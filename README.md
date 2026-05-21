@@ -7,6 +7,8 @@ A rework of JosephIsReal Mod! (Not a Baldi's Basics + Mod)
 
 - I did not create any of the joseph assets. The only things i did make are the scripts which are just heavily re-worked scripts from the JosephIsReal mod!
 
+- Once I make a stable build of the game i will start building for Windows. WebGL is mainly for testing!
+
 # Platforms
 Platforms this will be built for
 
