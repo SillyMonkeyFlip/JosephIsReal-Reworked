@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wait!</title>
+    <style>
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('Fonts/Minecraft.ttf');
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Minecraft', sans-serif;
+            padding: 20px;
+        }
+
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Minecraft', sans-serif;
+            font-size: 20px;
+        }
+
+            a:hover {
+                color: #aaa;
+                text-shadow: 2px 2px #555;
+            }
+
+        .calvins-link {
+            color: #FFD700;
+            animation: yellowPulse 1.5s ease-in-out infinite;
+        }
+
+            .calvins-link:hover {
+                color: #FFD700;
+                text-shadow: 0 0 8px #FFD700, 0 0 20px #FFA500, 2px 2px #8B6914;
+            }
+
+        @keyframes yellowPulse {
+            0% {
+                text-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500;
+            }
+
+            50% {
+                text-shadow: 0 0 15px #FFD700, 0 0 30px #FFA500, 0 0 45px #FF8C00;
+            }
+
+            100% {
+                text-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Uhh click this to play the game!</h1>
+    <div class="nav-container">
+        <a href="WebGL Build/index.html">Play Game</a>
+    </div>
+</body>
+</html>
