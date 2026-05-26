@@ -1,6 +1,9 @@
-# JosephIsReal Reworked!
+# JosephIsReal Reworked! (Canned for now 🥀)
 
 A rework of JosephIsReal Mod! (Not a Baldi's Basics + Mod)
+
+# Why is this canned
+I may or may not of accidentally deleted the unity project 😭
 
 # Information
 - This isnt a BB+ mod, this is its own executable (Windows) that you run.
